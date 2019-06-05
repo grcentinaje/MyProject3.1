@@ -1,5 +1,6 @@
 import React from "react";
-import Profile from "./components/pages/Profile"
+// import PhotoGallery from "./components/Gallery"
+import MyArt from "./components/pages/MyArt";
 // import { BrowserRouter as Router, Route } from "react-router-dom";
 // import "./components/styles/App.css";
 // import LogIn from "./components/pages/LogIn";
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="container">
   
-    <Profile />
+    <MyArt />
 
     {/* <Router>
       <Wrapper>

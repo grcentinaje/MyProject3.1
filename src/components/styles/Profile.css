@@ -1,3 +1,17 @@
-.card {
-    max-width: 540px;
+.my-container{
+    margin-top: 20px;
+    background: black;
+}
+
+.gr__localhost{
+    background: black;
+}
+
+h1{
+    color:rgb(16, 192, 223);
+}
+
+h3{
+    line-height: 2;
+    color: white
 }

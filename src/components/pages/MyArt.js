@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import SearchForm from "../SearchForm";
 import Alert from "../Alert";
 import "../styles/MyArt.css"
+import PhotoGallery from "../Gallery";
 // import SearchResults from "../components/SearchResults";
 
 class MyArt extends Component {
@@ -29,7 +30,7 @@ class MyArt extends Component {
   };
   render() {
     return (
-      <div className="container">
+      <div className="my-container">
         
           <h1 className="text-center">My Artwork</h1>
           <Alert
@@ -42,6 +43,13 @@ class MyArt extends Component {
             handleFormSubmit={this.handleFormSubmit}
             handleInputChange={this.handleInputChange}
           />
+
+          <PhotoGallery />
+          
+          
+
+
+
       </div>
     );
   }

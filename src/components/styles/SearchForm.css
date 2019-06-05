@@ -14,5 +14,9 @@ form.search {
 }
 
 .search{
-  display: flex;
+  margin: auto;
+}
+
+label{
+  color: white;
 }

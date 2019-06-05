@@ -6,7 +6,7 @@ function SearchForm(props) {
   return (
     <form className="search">
       <div className="form-group">
-        <label htmlFor="artwork">Upload:</label>
+        <label htmlFor="artwork">Upload your artwork here:</label>
         <input
           onChange={props.handleInputChange}
           type="text"
